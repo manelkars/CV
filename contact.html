@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+    <h1><strong>Contact Details</strong></h1>
+  <body>
+    <p>
+      <h3>The Mindmine</h3>
+      <em>B406, Raheja Woods, <br />
+      Vithalrao Vandekar Marg, <br />
+      Kalyani Nagar, Pune 411006 <br />
+      Maharashtra, India <br />
+      Website: <a href="https://www.themindmine.com">www.themindmine.com</a> <br />
+      Email: <a href="mailto:shekhar.manelkar@themindmine.com?subject=Inquiry">contactus@themindmine.com</a> </em>
+<hr>
+<form>
+  <table>
+    <tr>
+      <td><label>Full Name: </label></td>
+      <td> <input type="text" name="" value=""></td>
+    </tr>
+    <tr>
+      <td><label>Email Address: </label> </td>
+      <td> <input type="email" name=""> </td>
+    </tr>
+    <tr>
+      <td><label>Postal Address: </label></td>
+      <td> <input type="text" name=""> </td>
+      <td> <input type="text" name=""> </td>
+      <td><Label for "pin">Pin Code: </Label></td>
+      <td><input id "pin" type="number" name="pin" min="100000" max="999999"/></td>
+    </tr>
+    <tr>
+      <td><Label for "tel">Telephone Number: +91</Label></td>
+      <td><input id="tel" type="number" min="5000000000" max="9999999999"></td>
+    </tr>
+    <tr>
+      <td><Label for cv>Click to attach your CV: </Label></td>
+      <td><input id="cv" type="file" accept=".pdf, .doc, .docx"</td>
+    </tr>
+  </table><br>
+
+<p>Please select your preferred contact method:</p>
+  <input type="radio" id="contactChoice1"
+   name="contact" value="email">
+  <label for="contactChoice1">Email</label>
+
+  <input type="radio" id="contactChoice2"
+   name="contact" value="phone">
+  <label for="contactChoice2">Phone</label>
+
+  <input type="radio" id="contactChoice3"
+   name="contact" value="mail">
+  <label for="contactChoice3">Mail</label>
+  <button type="submit">Submit</button>
+</form>
+    </p>
+  </body>
+</html>
